@@ -1,1 +1,3 @@
-
+import pandas as pd
+dataset_hub_link = "hf://datasets/dair-ai/emotion/unsplit/train-00000-of-00001.parquet"
+df = pd.read_parquet(dataset_hub_link)
